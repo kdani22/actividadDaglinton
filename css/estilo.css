@@ -1,0 +1,25 @@
+body{
+    font-family: arial, helvetica;
+    background: #e8e8e8;
+}
+.navbar{
+    list-style: none;
+    padding: 0%;
+    background: #248C71;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.navbar li{
+    display: inline-block;
+    text-align: center;
+}
+.navbar li a:hover{
+    background: rgba(131, 224, 255, 0.8);
+}
